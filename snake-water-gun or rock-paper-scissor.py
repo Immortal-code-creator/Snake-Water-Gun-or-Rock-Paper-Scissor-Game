@@ -1,9 +1,10 @@
 #The Game is Snake-water-gun or Rock-paper-scissor
 #The User will have to choose between two games which one he wants to play snake-water-gun or rock-paper-scissor
 #Based on users decision the program will run and there will be a competition between user and computer
-#The match will be of 10 rounds for both the game and both the user and the computer score will be displayed after each round
+#The match will be of 5 points for easy level , 10 points for medium level and 15 points for hard level for 1st Game and 7 points for easy level,16 points for medium level and 22 points for hard level both the user and the computer score will be displayed after each round
 #In each round the user will pick on of the following snake,water or gun and also same for rock,paper or scissor
-#If the user and the computers decision are same then a draw will be displayed and the no.of rounds will be increased by 1 for each draw making it exactly a fair match of 10 rounds for both the game
+#If the user and the computers decision are same then a draw will be displayed and no points will be given to either of the players
+#The Game will end when either the user or the computer reach the points threshold
 #we will use python's built-in module random
 import random
 user=str(input("Enter Your Name:-")).capitalize()
@@ -491,4 +492,5 @@ while(user1!=1 and user1!=2):
         else:
             print("Enter '1' For FOR Snake-Water-Gun Game Or Enter '2' For Rock-Paper-Scissor Game ")
     except Exception as e:
+
         print("Pls,Enter a Valid Symbol(1 or 2)")
