@@ -33,7 +33,7 @@ This project is designed to strengthen understanding of Python fundamentals such
 
 .macOS
 
--Built-in Python Modules Used:
+### Built-in Python Modules Used:
 
 .random
 
@@ -69,11 +69,11 @@ This project is designed to strengthen understanding of Python fundamentals such
 
 -The user selects a difficulty mode:
 
-.Easy
+  .Easy
 
-.Medium
+  .Medium
 
-.Hard
+  .Hard
 
 -Each mode has a different target score to win.
 
